@@ -1,8 +1,8 @@
 {
   "name": "adspirer-search-ads",
   "displayName": "Adspirer Search Ads",
-  "version": "1.0.3",
-  "description": "Research keywords and competitor ads, analyze Google Ads performance, and create and manage Google Ads and Microsoft Advertising campaigns—with your approval.",
+  "version": "1.0.4",
+  "description": "PPC advertising agent for Google and Bing. Research keywords and competitor ads, launch search campaigns, and optimize paid-search spending—with your approval.",
   "author": {
     "name": "Adspirer",
     "email": "support@adspirer.com"

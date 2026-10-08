@@ -1,5 +1,7 @@
 # Adspirer Search Ads for Cursor and Grok Bot
 
+PPC advertising agent for Google and Bing. Research keywords and competitor ads, launch search campaigns, and optimize paid-search spending—with your approval.
+
 Adspirer Search Ads is your PPC and paid search agent — an AI performance marketer for search engine marketing (SEM) that works like a member of your team. It researches competitor ads, plans, launches, and helps manage search advertising campaigns across Google Ads and Microsoft Advertising (Bing Ads).
 
 Create campaigns through conversation, not dashboards. Turn an objective like "more demos under a $50 cost-per-lead" into well-structured search campaigns — then keep working after launch. Adspirer handles keyword research and match types, harvests high-intent search terms, identifies wasteful search terms and adds negative keywords with your approval, manages bids and bid strategies, paces spend so budgets land where you want them, shifts money toward what's converting, writes and refreshes responsive search ad copy, audits conversion tracking, and flags anything that needs a human call.

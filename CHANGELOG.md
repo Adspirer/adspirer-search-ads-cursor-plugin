@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Lead the marketplace description with the advertising specialty for clearer truncated previews.
+
 ## 1.0.3
 
 - Restored adapted docs, agent, creative, and performance-review skill families.
