@@ -1,8 +1,8 @@
 {
   "name": "adspirer-search-ads",
   "displayName": "Adspirer Search Ads",
-  "version": "1.0.0",
-  "description": "Research keywords and competitor ads, uncover wasted Google Ads spend, and create and manage Google Ads and Microsoft Advertising campaigns with your approval.",
+  "version": "1.0.1",
+  "description": "Adspirer Search Ads is your PPC and paid search agent — an AI performance marketer for search engine marketing (SEM) that works like a member of your team. It does competitor ads research, plans, launches, and autonomously runs search advertising campaigns across Google Ads and Microsoft Advertising (Bing Ads).\n\nCreate campaigns through conversation, not dashboards. Turn an objective like \"more demos under a $50 cost-per-lead\" into well-structured search campaigns — then keep working after launch. Adspirer handles keyword research and match types, harvests high-intent search terms, prunes the negative keywords draining budget, manages bids and bid strategies, paces spend so budgets land where you want them, shifts money toward what's converting, writes and refreshes responsive search ad copy, audits conversion tracking, and flags anything that needs a human call.\n\nCovers Search, Shopping, and Performance Max campaigns on Google Ads, plus Microsoft Advertising search and shopping. Includes wasted-spend audits, ROAS, CPA and CPC reporting, and Quality Score diagnostics. Manages multiple brands and client accounts — built for in-house teams and PPC agencies.\n\nYou set the strategy and approve changes; new campaigns start paused. Ongoing autonomous work requires an explicitly configured and authorized host workflow—the plugin does not run unattended jobs by itself. Reporting and research capabilities vary by platform; Microsoft campaign inspection and management do not imply Google-equivalent performance reporting.",
   "author": {
     "name": "Adspirer",
     "email": "support@adspirer.com"

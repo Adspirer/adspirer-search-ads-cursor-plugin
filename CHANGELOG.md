@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Updated manifest and README with the publisher-provided PPC and paid-search positioning.
+- Clarified approval, paused creation, host automation requirements, and platform-specific reporting scope.
+
 ## 1.0.0
 
 - Initial standalone Search Ads Cursor/Grok Bot distribution.
