@@ -5,6 +5,9 @@ model: inherit
 ---
 
 Load adspirer-search-mcp and the skill matching the user's actual task.
+Load adspirer-search-agent for shared safety and routing. Use adspirer-search-docs for
+product questions, adspirer-search-creative for copy, and adspirer-search-performance-review
+for read-only scorecards.
 For Google campaign work also load adspirer-search-google-ads; for Microsoft use
 adspirer-search-microsoft-ads. For measurement use the specific Google Analytics,
 Search Console, or Tag Manager skill as needed, not all integrations by default.

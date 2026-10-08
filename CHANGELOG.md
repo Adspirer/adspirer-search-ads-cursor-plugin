@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+- Restored adapted docs, agent, creative, and performance-review skill families.
+- Expanded setup and optimization to preserve transferable original workflow guidance.
+- Added an explicit original-to-specialist skill map; total 16 skills.
+
 ## 1.0.2
 
 - Shortened marketplace summary; retained detailed positioning in README.

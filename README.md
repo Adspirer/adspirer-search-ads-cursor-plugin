@@ -47,8 +47,15 @@ has no separate fee. Eligibility and usage are determined by the service, not th
 | adspirer-search-google-analytics | GA4 acquisition, landing pages, and conversion-event analysis |
 | adspirer-search-google-search-console | Connected-site organic query research for paid-search planning |
 | adspirer-search-google-tag-manager | Tracking configuration inspection and approval-controlled fixes |
+| adspirer-search-docs | Product documentation, support, pricing, and live account-state routing |
+| adspirer-search-agent | Shared safety, workflow routing, brand context, and scheduling boundaries |
+| adspirer-search-creative | Evidence-led search ad copy and approval-controlled updates |
+| adspirer-search-performance-review | Read-only scorecards, comparisons, tracking checks, and interpretation |
 
 One search-advertising subagent and one task-scoped rule coordinate these workflows.
+Four additional transferable skills cover docs, agent coordination, creative, and performance review.
+Setup and optimization retain expanded original workflow responsibilities, scoped to this endpoint.
+See [SKILL-MAPPING.md](SKILL-MAPPING.md) for the complete original-to-specialist mapping (16 skills).
 There are no runtime hooks, bundled servers, or automatic campaign jobs.
 
 ## Scope and safety

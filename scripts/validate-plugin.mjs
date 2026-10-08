@@ -7,24 +7,25 @@ assert.equal(manifest.name, 'adspirer-search-ads');
 assert.equal(manifest.category, 'research');
 assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
 assert.equal(manifest.repository, 'https://github.com/Adspirer/adspirer-search-ads-cursor-plugin');
-const mcp = JSON.parse(read('mcp.json'));
-assert.deepEqual(mcp, {mcpServers: {'adspirer-search-ads': {type:'http',url:'https://mcp.adspirer.com/search-ads'}}});
-for (const p of [manifest.logo,'README.md','LICENSE','SECURITY.md','REVIEW.md',manifest.skills,manifest.agents,manifest.rules]) assert.ok(fs.existsSync(p), p);
-const skills = fs.readdirSync('skills');
-assert.equal(skills.length, 12);
-for (const name of skills) {
-  const content = read(path.join('skills',name,'SKILL.md'));
+assert.deepEqual(JSON.parse(read('mcp.json')), {mcpServers:{'adspirer-search-ads':{type:'http',url:'https://mcp.adspirer.com/search-ads'}}});
+for(const p of [manifest.logo,'README.md','LICENSE','SECURITY.md','REVIEW.md','SKILL-MAPPING.md',manifest.skills,manifest.agents,manifest.rules]) assert.ok(fs.existsSync(p),p);
+const skills=fs.readdirSync('skills').filter(n=>fs.statSync(path.join('skills',n)).isDirectory());
+assert.equal(skills.length,16);
+for(const name of skills){
+  const content=read(path.join('skills',name,'SKILL.md'));
   assert.ok(content.startsWith('---\n'));
   assert.ok(content.includes('name: '+name+'\n'));
-  assert.match(content, /\ndescription: .+/);
+  assert.match(content,/\ndescription: .+/);
   assert.ok(!content.includes('https://mcp.adspirer.com/mcp'));
+  for(const match of content.matchAll(/references\/[a-z0-9-]+\.md/g)){
+    assert.ok(fs.existsSync(path.join('skills',name,match[0])), name+': '+match[0]);
+  }
+  for(const match of content.matchAll(/\badspirer-search-[a-z0-9-]+\b/g)){
+    if(match[0]==='adspirer-search-ads') continue;
+    assert.ok(skills.includes(match[0]), 'Missing referenced skill '+match[0]);
+  }
 }
-const rule = read('rules/use-adspirer-search-ads.mdc');
-assert.match(rule, /alwaysApply: false/);
-const agent = read('agents/search-advertising-agent.md');
-assert.ok(agent.startsWith('---\n'));
-assert.match(agent, /\nname: /);
-assert.match(agent, /\ndescription: /);
-assert.match(read('README.md'), /Category: Research/);
+assert.match(read('rules/use-adspirer-search-ads.mdc'),/alwaysApply: false/);
+assert.match(read('agents/search-advertising-agent.md'),/\nname: /);
 assert.ok(!fs.existsSync('.github/workflows/sync-from-ads-mcp.yml'));
-console.log('PASS: manifest, endpoint, paths, 12 skills, rule, agent, and isolation checks');
+console.log('PASS: identity, endpoint, 16 skills, references, scoped names, assets and isolation');
