@@ -46,8 +46,17 @@ loud. Feed it your customer list, site visitors, and high-intent search terms vi
 Search themes (`add_pmax_search_themes`) are the closest thing to keywords PMax has. Use the current platform limit;
 they behave like broad match.
 
-## Reporting is limited by design
+## Reporting: distinguish platform support from connector access
 
-PMax will not tell you which placement or which search term drove which conversion, at anything like
-Search-level detail. If the user's core question is "which keyword made me money," PMax is the wrong
-campaign type and you should say so before they spend six weeks on it.
+Google provides Performance Max search-term and channel performance reports.
+Do not state that PMax search-term or channel reporting is categorically unavailable.
+Search terms are not the same as advertiser-selected Search keywords.
+
+Discover which reports the current Adspirer connector exposes before promising results.
+If a report exists in Google Ads but is not exposed here, state that connector limitation
+and suggest inspecting it in Google Ads. Never fabricate a report or silently substitute
+Search-campaign data. Explain reporting thresholds, aggregation, attribution, and date
+limitations when relevant; an aggregate report does not identify individual customer journeys.
+
+- [Google: Performance Max search terms report](https://support.google.com/google-ads/answer/16327396)
+- [Google: Performance Max channel performance](https://support.google.com/google-ads/answer/16260130)

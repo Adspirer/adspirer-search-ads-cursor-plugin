@@ -30,8 +30,8 @@ mix.
   broken tracking it optimizes toward nothing and spends the whole budget doing it. Check with
   `audit_conversion_tracking` first.
 - Run `discover_existing_assets` before building — the account usually has usable images already.
-- Reporting is opaque by design. If the user wants to know exactly which keyword drove which sale,
-  PMax will frustrate them.
+- Google offers PMax search-term and channel reporting. Check which reports the connector exposes;
+  platform availability does not establish connector support. See `pmax-assets.md` for the distinction.
 
 ## Demand Gen
 
