@@ -18,4 +18,6 @@ Package-specific names prevent ambiguity when multiple Adspirer plugins are inst
 
 New specialist skills: Microsoft Ads, keywords, competitors, measurement, GA4,
 Search Console, and Tag Manager. Total: 16 skills.
+`adspirer-search-agent` links `references/ui-checks.md`, a read-only Google Ads and Microsoft Advertising UI reference. That file is not a skill folder, so the skill count stays 16.
 The original main repository is unchanged. Unsupported main-hub tool references are not retained.
+This repository does not auto-sync from amekala/ads-mcp.
