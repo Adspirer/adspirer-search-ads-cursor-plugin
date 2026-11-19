@@ -54,6 +54,11 @@ For keyword research, `research_keywords` returns volume and competition from Go
 
 Choose bidding from the user's objective, reliable conversion tracking, budget, and current platform eligibility. Treat reference thresholds as planning heuristics, not universal requirements. Check current Google guidance before prescribing a strategy.
 
+## Quality Score and impression share
+
+Quality Score (expected CTR, ad relevance, landing-page experience) explains rank; it is not a KPI to optimize in isolation. Read it at keyword level when the columns are available.
+Impression share splits a miss into two opportunities. Lost IS (budget) means the auction ran out of budget — more budget can buy those impressions if the extra clicks are worth the cost. Lost IS (rank) means bid, Quality Score, or ad relevance lost the auction — more budget does not fix it. Say which one, with the campaign, date range, and account. A low Quality Score with lost IS (rank) is a creative or landing-page opportunity, not a budget increase.
+
 ## Reading performance
 
 `get_campaign_performance` is a **direct, top-level tool** — do not route it through `google_ads`.

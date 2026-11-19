@@ -16,3 +16,4 @@ The inspected Microsoft catalog is listing/inspection and management oriented. D
 invent performance reports, keyword volume forecasts, or Google feature parity.
 For missing research data, say what is unavailable and offer a labeled alternative.
 Use available measurement evidence without implying Google Ads conversions are Microsoft conversions.
+A scheduled Google import can overwrite Microsoft-side edits. Before changing keywords, ads, bids, or negatives, check whether an import is scheduled and say that the next import can replace those edits.

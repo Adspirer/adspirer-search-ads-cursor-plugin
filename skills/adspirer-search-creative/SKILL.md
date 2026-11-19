@@ -21,6 +21,10 @@ Lead with a relevant offer or outcome. Prefer specifics to generic adjectives.
 Vary hook, benefit, proof, and call to action; show variants together with character counts.
 Validate each format against the live schema and current platform specs; visible truncation
 is not a universal hard limit. Each responsive headline should make sense independently. Do not transfer Google limits to Microsoft blindly.
+
+Google responsive search ads: up to 15 headlines of 30 characters, up to 4 descriptions of 90, and path fields of 15. Count characters before you show the set.
+Pinning keeps a required line in a slot and reduces the combinations the auction can test. Pin only when that line must show.
+Run one test at a time so the result can be read. Do not change copy, pinning, and the landing page together.
 Explain why each variant fits the intended audience or query and landing page.
 
 ## Fatigue and experiments

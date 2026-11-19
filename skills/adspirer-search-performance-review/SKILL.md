@@ -20,6 +20,13 @@ partial days, conversion lag, missing permissions, and tracking failures from re
 Run audit_conversion_tracking where relevant and supported. A tracking gap limits affected
 conversion claims; it does not automatically invalidate independently measured spend.
 Do not combine incompatible currencies or double-count cross-platform attributed conversions.
+Never sum Google and Microsoft conversions as if they were deduplicated, and never sum amounts across currencies.
+
+## How to deliver the report
+
+On Grok Bot, deliver reports as a Page and update the same Page on reruns; elsewhere, one HTML or Markdown file.
+Label every number with platform, account, date range, timezone, and currency.
+Write missing data as "not available" (never 0). A failed or empty read is missing data, not a zero result.
 
 ## Scorecard and interpretation
 

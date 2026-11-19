@@ -15,3 +15,17 @@ be established, stop before creating it. Never enable it as part of routine setu
 Read back campaign status, budget, account, and created resources; report IDs and any
 partial failures. Do not blindly retry creations or claim a plan was executed.
 Launching later needs separate explicit approval. Never promise conversions or profitability.
+
+## Quality Score and impression share
+
+On Google, read Quality Score and impression share before recommending more budget. Lost IS (budget) is a budget opportunity when the extra clicks are worth it. Lost IS (rank) is a bid, Quality Score, or relevance opportunity — raising the budget does not recover it. Label the account, campaign, and date range. Microsoft impression-share parity is not assumed; if the catalog has no such report, write "not available".
+
+## Launch preflight
+
+Before calling a Search build finished, confirm all of these:
+
+- Negatives from the plan are in place at the agreed scope and match type.
+- At least 4 sitelinks and 4 callouts are on the campaign (Google Search; add the Microsoft equivalents the live schema supports).
+- Networks are checked: Search Partners and Display are off unless the approved plan turned them on.
+- Conversion tracking for the goal is verified (adspirer-search-measurement), not assumed from a tag warning.
+- The campaign was created paused, and a read-back confirms it is still paused.
